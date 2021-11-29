@@ -14,3 +14,4 @@ We're eagerly waiting for pull requests from the community. If you have one, don
 And in case you'd like to discuss anything, share your thoughts or simply say hello, you can reach out to us via [Discord](https://discord.meroxa.com/).
 
 ## Code of Conduct
+We're very eager about creating and maintaining a positive environment for all the contributors. Hence, before contributing, please check out our [Code of Conduct](https://github.com/ConduitIO/.github/blob/main/CODE_OF_CONDUCT.md).
