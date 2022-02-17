@@ -39,14 +39,8 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event.action == 'labeled' && (contains(github.event.issue.labels.*.name, 'roadmap') == false)
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-        with:
-          repository: 'conduitio/.github'
-          path: 'roadmap'
-
       - name: Remove from Roadmap
-        uses: ./roadmap/actions/remove_issue_from_project
+        uses: ./.github/actions/remove_issue_from_project
         with:
           project: ${{ inputs.project }}
           issue: ${{ github.event.issue.node_id }}
